@@ -1,0 +1,11 @@
+index=* EventCode=11
+| timechart count
+
+index=* EventCode=11
+| stats count by ComputerName
+
+index=* EventCode=11
+| stats count by source
+
+index=* EventCode=11
+| table _time ComputerName source EventCode
