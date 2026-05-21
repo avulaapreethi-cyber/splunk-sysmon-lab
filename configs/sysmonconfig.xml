@@ -1,4 +1,6 @@
-<!--
+<FileCreate onmatch="include">
+    <TargetFilename condition="contains">.locked</TargetFilename>
+</FileCreate><!--
   sysmon-config | A Sysmon configuration focused on default high-quality event tracing and easy customization by the community
   Source version:	74 | Date: 2021-07-08
   Source project:	https://github.com/SwiftOnSecurity/sysmon-config
